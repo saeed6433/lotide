@@ -7,8 +7,6 @@ const assertEqual = function(actual , expected) {
   }
 };
 
-//console.log(assertEqual(1,1));
-//console.log(assertEqual("LighthouseLab","Bootcamp"));
 
 const countOnly = function(allItems, itemsToCount) {
   let newObj = {}
@@ -19,7 +17,7 @@ const countOnly = function(allItems, itemsToCount) {
     }
   } 
   console.log(newObj);
-  //return newObj
+  return newObj
 }
 
 const firstNames = [

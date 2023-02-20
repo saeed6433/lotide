@@ -8,17 +8,11 @@ const map = function(array, callback) {
   return results
 }
 
-
-const results1 = map(words, word => word[0]);
-console.log(results1);
-
-
-
+// const results1 = map(words, word => word[0]);
 
 
 const eqArrays = function(arr1,arr2){
   for (let i = 0; i< arr1.length; i++) {
-    //console.log(arr1[i], arr2[i])
     if (arr1[i] !== arr2[i]){
       return false;
     } 
@@ -32,8 +26,7 @@ const assertArraysEqual = function (ar1,ar2) {
   else console.log('❌ Assertation Failed: Two arrays are NOT equal');
 }
 
-assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ])
+// assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ])
 
 module.exports = map
 
-console.log(module)

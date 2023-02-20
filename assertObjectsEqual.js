@@ -1,6 +1,5 @@
 const eqArrays = function(arr1,arr2){
   for (let i = 0; i< arr1.length; i++) {
-    //console.log(arr1[i], arr2[i])
     if (arr1[i] !== arr2[i]){
       return false;
     } 
@@ -37,6 +36,7 @@ const assertObjectsEqual = function(actual, expected) {
 
 const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
 const anotherMultiColorShirtObject = { size: "medium", colors: ["red", "blue"] };
-assertObjectsEqual(multiColorShirtObject, anotherMultiColorShirtObject)
+// assertObjectsEqual(multiColorShirtObject, anotherMultiColorShirtObject)
+
 const longSleeveMultiColorShirtObject= { size: "medium", colors: ["red", "blue"], sleeveLength: "long" };
-assertObjectsEqual(multiColorShirtObject, longSleeveMultiColorShirtObject)
+// assertObjectsEqual(multiColorShirtObject, longSleeveMultiColorShirtObject)

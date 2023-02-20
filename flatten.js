@@ -1,6 +1,5 @@
 const eqArrays = function(arr1,arr2){
   for (let i = 0; i< arr1.length; i++) {
-    //console.log(arr1[i], arr2[i])
     if (arr1[i] !== arr2[i]){
       return false;
     } 
@@ -22,10 +21,9 @@ const flatten = function (array) {
     }
     else flat.push(el)
   }  
-  //console.log(flat);
   return flat
 }
 
-assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6])
+// assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6])
 
 module.exports = flatten

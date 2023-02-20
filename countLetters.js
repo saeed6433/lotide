@@ -9,14 +9,12 @@ const assertEqual = function(actual , expected) {
 
 const countLetters = function (str) {
   let obj = {}
-  let wordSum
   for (let word of str){
     if (word !== ' '){
       if(obj.hasOwnProperty(word)){
         obj[word]+=1
       } else {obj[word]=1}
     }
-    
   } 
   return obj
 }

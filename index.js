@@ -10,7 +10,7 @@ const map = require('./map');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
 
-//console.log(typeof(findKey), typeof(head))
+
 module.exports = {
   head:   head,
   tail:   tail,

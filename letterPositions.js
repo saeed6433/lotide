@@ -23,12 +23,11 @@ const letterPositions = function (str) {
     }
     
   } 
-  console.log(obj);
   return obj
 }
-letterPositions("lighthouse in the house")
-letterPositions("hello")
+// letterPositions("lighthouse in the house")
+// letterPositions("hello")
 
-assertArraysEqual(letterPositions("hello"),{ h: [ 0 ], e: [ 1 ], l: [ 2, 3 ], o: [ 4 ] })
+// assertArraysEqual(letterPositions("hello"),{ h: [ 0 ], e: [ 1 ], l: [ 2, 3 ], o: [ 4 ] })
 
 module.exports = letterPositions

@@ -7,5 +7,8 @@ const assertEqual = function(actual , expected) {
   }
 };
 
-//console.log(assertEqual(1,1));
-//console.log(assertEqual("LighthouseLab","Bootcamp"));
+// assertEqual("LighthouseLab","Bootcamp")
+
+module.exports = assertEqual
+
+//console.log(module)

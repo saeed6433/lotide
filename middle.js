@@ -1,6 +1,5 @@
 // const eqArrays = function(arr1,arr2){
 //   for (let i = 0; i< arr1.length; i++) {
-//     //console.log(arr1[i], arr2[i])
 //     if (arr1[i] !== arr2[i]){
 //       return false;
 //     } 
@@ -19,7 +18,7 @@ const middle = function (array) {
   let oddIndex = Math.floor(len / 2)
   let evenIndex2 = len / 2
   let evenIndex1 = len / 2 - 1 
-  if (len < 2){ return []}
+  if (len <= 2){ return []}
   else if (len % 2 === 0){ return [array[evenIndex1], array[evenIndex2]]} 
   else return [array[oddIndex]]
 }
@@ -27,6 +26,6 @@ const middle = function (array) {
 
 // assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4])
 // assertArraysEqual(middle([1, 2, 3, 4, 5]), [3])
-// assertArraysEqual(middle([1, 2]).length, [].length)
+// console.log(assertArraysEqual(middle([1, 2]), []))
 
 module.exports = middle

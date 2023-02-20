@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@saeed6433/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project was created and published as part of my learnings at Lighthouse Labs. ",
   "main": "assertArraysEqual.js",
   "scripts": {
     "test": "mocha"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/saeed6433/lotide.git"
   },
-  "author": "",
+  "author":  "Saeed <saeed6433@gmail.com> (http://saeed.lighthouselab.com/)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/saeed6433/lotide/issues"

@@ -18,10 +18,10 @@ const countLetters = function (str) {
     }
     
   } 
-  console.log(obj);
   return obj
 }
-countLetters("lighthouse in the house")
+
+// countLetters("lighthouse in the house")
 // countLetters(['a','b', 'b', 'a', ,'c'])
 
-
+module.exports = countLetters

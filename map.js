@@ -33,3 +33,7 @@ const assertArraysEqual = function (ar1,ar2) {
 }
 
 assertArraysEqual(map(words, word => word[0]), [ 'g', 'c', 't', 'm', 't' ])
+
+module.exports = map
+
+console.log(module)
